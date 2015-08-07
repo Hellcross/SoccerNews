@@ -14,7 +14,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-         />
+        android:layout_alignRight="@+id/tela_time"
+        android:layout_alignEnd="@+id/tela_time" />
 
     <TextView
         android:layout_width="wrap_content"

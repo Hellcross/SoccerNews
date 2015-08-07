@@ -5,7 +5,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.thiagomelo.teste.acao"
-    android:background="#fff">
+    android:background="#000">
 
     <Button
         android:layout_width="wrap_content"
@@ -13,7 +13,7 @@
         android:text="Notícias"
         android:id="@+id/btn_noticias"
         android:layout_marginTop="74dp"
-        android:background="#0000FF"
+        android:background="@drawable/button_background_enabled"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:text="Canal do Youtube"
         android:id="@+id/btn_youtube"
-        android:background="#0000FF"
+        android:background="@drawable/button_background_enabled"
         android:layout_below="@+id/btn_noticias"
         android:layout_alignRight="@+id/btn_partidas"
         android:layout_alignEnd="@+id/btn_partidas"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:text="Partidas"
         android:id="@+id/btn_partidas"
-        android:background="#0000FF"
+        android:background="@drawable/button_background_enabled"
         android:layout_below="@+id/btn_youtube"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="false"
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:text="Siga o time no facebook"
         android:id="@+id/btn_facebook"
-        android:background="#0000FF"
+        android:background="@drawable/button_background_enabled"
         android:layout_marginTop="39dp"
         android:layout_below="@+id/btn_partidas"
         android:layout_alignParentLeft="true"
